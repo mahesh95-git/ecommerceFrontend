@@ -3,8 +3,13 @@
   margin: 0px;
   box-sizing: border-box;
 }
+@font-face {
+  font-family:'mahesh' ;
+  src: url('./assets/Poppins-Regular.ttf');
+}
 a {
   text-decoration: none;
+  color: white;
 }
 ul {
   list-style: none;
