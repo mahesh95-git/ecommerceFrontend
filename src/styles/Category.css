@@ -1,0 +1,51 @@
+.container-3 {
+  justify-content: center;
+  display: flex;
+  font-family: mahesh;
+  color: white;
+  margin: 10px;
+  background-color: #16161c;
+  gap: 20px;
+  overflow: scroll;
+  padding: 10px;
+  border-radius: 5px;
+  scroll-behavior: smooth;
+  
+}
+.container-3-1 {
+  padding: 5px;
+
+  cursor: pointer;
+
+  text-align: center;
+
+ 
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.container-3-1 img {
+  width: 6vw;
+}
+
+@media (max-width:600px){
+    .container-3{
+        justify-content: space-between;
+        padding: 5px;
+        gap: 0px;
+        margin: 5px;
+    }
+  
+    .container-3-1 a{
+      padding:5px;
+      display: flex;
+      flex-direction: column;
+     justify-content: center;
+      align-items: center;
+        font-size: 14px;
+       
+    }
+    .container-3-1 img {
+        width: 20vw;
+      }
+}

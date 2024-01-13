@@ -1,0 +1,21 @@
+body {
+  background-color: #0f1014;
+}
+.container-2 {
+  padding: 10px 10px;
+  width: 100%;
+}
+.container-2 img {
+  width: 100%;
+  border-radius: 5px;
+}
+@media (max-width:600px){
+  .container-2 img{
+    width: 100vw;
+    height: 100px;
+    object-fit: cover;
+  }
+  .container-2{
+    padding: 5px;
+    }
+}

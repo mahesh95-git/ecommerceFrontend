@@ -35,6 +35,12 @@
   justify-self: center;
   cursor: pointer;
 }
+.container-1-3 .navigate-container a:hover{
+
+  
+    color: rgb(47, 159, 32);
+  transition: all ease-in 0.2s;
+}
 .container-1-2 input {
   background-color: white;
   width: 35vw;

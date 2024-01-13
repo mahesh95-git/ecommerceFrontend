@@ -1,0 +1,29 @@
+.container-4 {
+  padding: 10px;
+  font-family: mahesh;
+}
+.container-4-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.container-4-1 {
+  color: white;
+  margin: 10px 0px 20px 0px;
+  border-bottom: solid 0.5px rgba(255, 255, 255, 0.073);
+  padding: 10px 0px;
+}
+@media (max-width: 600px) {
+  .container-4 {
+    padding: 5px;
+  }
+  .container-4-2 {
+    gap: 11px;
+  
+  }
+  .container-4-1 {
+    font-size: 14px;
+    margin: 5px 0px 10px 0px;
+  }
+}
