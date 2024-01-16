@@ -6,10 +6,11 @@
   margin: 10px;
   background-color: #16161c;
   gap: 20px;
-  overflow: scroll;
+  /* overflow: scroll; */
   padding: 10px;
   border-radius: 5px;
   scroll-behavior: smooth;
+  
   
 }
 .container-3-1 {
@@ -30,10 +31,11 @@
 
 @media (max-width:600px){
     .container-3{
-        justify-content: space-between;
+        justify-content:flex-start;
         padding: 5px;
         gap: 0px;
         margin: 5px;
+        flex-wrap: wrap;
     }
   
     .container-3-1 a{

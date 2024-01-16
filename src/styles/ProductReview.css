@@ -1,0 +1,131 @@
+.container-9{
+    background-color: #16161c;
+    margin: 20px auto;
+    color: white;
+    font-family: mahesh;
+  
+    width: 50vw;
+}
+.container-9-1{
+    padding: 20px;
+}
+.container-9-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+ 
+}
+.review input{
+    width: 45vw;
+    height: 45px;
+   border: solid 0.5px rgba(255, 255, 255, 0.438);
+   outline: none;
+   padding: 0px 20px;
+   color: white;
+   margin: 10px 0px;
+   border-radius: 5px;
+   background-color: rgb(22, 22, 22);
+   
+}   
+.review textarea{
+    resize: none;
+    width: 45vw;
+    border-radius: 5px;
+    border: solid 0.5px rgba(255, 255, 255, 0.438);
+    margin: 10px 0px;
+    background-color: rgb(22, 22, 22);
+    min-height: 20vh;
+    color: white;
+    padding:20px;
+}
+.submit-rate{
+    width: 20vw;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: mahesh;
+    outline: none;
+    font-size: 17px;
+    background-color: green;
+
+}
+.type{
+    display: flex;
+   gap: 20px;
+   align-items: center;
+   cursor: pointer;
+  
+}
+.type svg{
+    width: 35px;
+    height: 35px;
+    margin-top:30px ;
+  
+}
+.name-rating{
+    position: absolute;
+    background-color: #000000;
+    padding: 5px;
+    display: none;
+    align-items: center;
+}
+.svg-color svg{
+    color:yellow;
+   
+}
+.dis-block{
+display: block;
+}
+.svg1-color svg{
+    color:yellow;
+  
+}
+
+.final-rating{
+
+   
+    padding-top: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+@media (max-width:600px){
+    .container-9{
+       
+       
+        width: 96.8%;
+    }
+    .review input{
+        width: 100%;
+        height: 45px;
+      
+       margin: 10px 0px;
+       
+    }  
+    .review textarea{
+        width: 100%;
+        min-height: 30vh;
+    }
+    .type svg{
+        width: 30px;
+        height: 30px;
+        margin-top:20px;
+      
+    }
+    .name-rating{
+        display: none;
+        
+    }
+    .type{
+        align-items: center;
+        height: 60px;
+        gap: 10px;
+    }
+  .final-rating{
+    height: 30px;
+  }
+  .container-9-1{
+    font-size: 13px;
+  }
+}
