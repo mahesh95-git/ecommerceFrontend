@@ -1,4 +1,4 @@
-import { Category, Header, ProductAdd, ProductListing } from '../commponets'
+import { Category, Footer, Header, ProductAdd, ProductListing } from '../commponets'
 function Home() {
   return (
     <div>
@@ -6,6 +6,7 @@ function Home() {
       <ProductAdd/>
       <Category/>
       <ProductListing/>
+      <Footer/>
     </div>
   )
 }

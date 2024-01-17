@@ -1,10 +1,11 @@
 import React from 'react'
-import { Header,ProductDetail } from '../commponets'
+import { Footer, Header,ProductDetail } from '../commponets'
 function ProductDetails() {
   return (
     <div>
       <Header/>
       <ProductDetail/>
+      <Footer/>
     </div>
   )
 }

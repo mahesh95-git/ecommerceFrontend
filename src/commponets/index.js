@@ -5,6 +5,8 @@ import ProductListing from "./ProductListing";
 import Product from "./Product";
 import ProductDetail from "./ProductDetail";
 import ProductReview from "./ProductReview";
+import Footer from "./Footer";
+import Cart from "./Cart";
 export  {
     Header,
     ProductAdd,
@@ -12,6 +14,8 @@ export  {
     ProductListing,
     Product,
     ProductDetail,
-    ProductReview
+    ProductReview,
+    Footer,
+    Cart
     
 }

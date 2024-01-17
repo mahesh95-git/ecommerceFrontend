@@ -57,7 +57,6 @@ function ProductReview() {
         rate[i].current.classList.remove("svg1-color");
       }
     }
- 
   };
   return (
     <div className="container-9">
