@@ -1,10 +1,10 @@
-import { Category, Footer, Header, ProductAdd, ProductListing } from '../commponets'
+import { CategoryName, Footer, Header, ProductAdd, ProductListing } from '../commponets'
 function Home() {
   return (
     <div>
       <Header/>
       <ProductAdd/>
-      <Category/>
+      <CategoryName/>
       <ProductListing/>
       <Footer/>
     </div>

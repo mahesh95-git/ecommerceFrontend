@@ -7,12 +7,18 @@ import "./styles/Category.css";
 import "./styles/product.css";
 import "./styles/ProductListing.css";
 import "./styles/ProductDetail.css";
-import "./styles/ProductReview.css"
-import "./styles/Footer.css"
-import "./styles/cart.css"
+import "./styles/ProductReview.css";
+import "./styles/Footer.css";
+import "./styles/cart.css";
+import "./styles/categoryProducts.css"
+import "./styles/signIn.css"
 import ProductReviews from "./pages/ProductReviews";
 import ProductDetails from "./pages/ProductDetails";
 import Carts from "./pages/carts";
+import CetegoryPage from "./pages/Cetegory.page";
+import { SignUp, SingIn} from "./commponets";
+
+
 
 function App() {
   return (
@@ -21,9 +27,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="productDetial/:id" element={<ProductDetails />} />
-
           <Route path="productReview/:id" element={<ProductReviews />} />
-          <Route path="cart" element={<Carts/>}/>
+          <Route path="cart" element={<Carts />} />
+          <Route path="category/:name" element={<CetegoryPage/>}/>
+          <Route path="signin" element={<SingIn/>}/>
+          <Route path="signup" element={<SignUp/>}/>
         </Routes>
       </BrowserRouter>
     </>

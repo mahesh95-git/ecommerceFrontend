@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-function Category() {
+function CategoryName() {
   const categorys = [
     {
       name: "Fasion",
@@ -39,4 +39,4 @@ function Category() {
   );
 }
 
-export default Category;
+export default CategoryName;
