@@ -12,8 +12,10 @@ import "./styles/Footer.css";
 import "./styles/cart.css";
 import "./styles/categoryProducts.css"
 import "./styles/signIn.css"
+import "./styles/Me.css"
 import ProductReviews from "./pages/ProductReviews";
 import ProductDetails from "./pages/ProductDetails";
+import Profile from "./pages/Profile";
 import Carts from "./pages/carts";
 import CetegoryPage from "./pages/Cetegory.page";
 import { SignUp, SingIn} from "./commponets";
@@ -32,6 +34,7 @@ function App() {
           <Route path="category/:name" element={<CetegoryPage/>}/>
           <Route path="signin" element={<SingIn/>}/>
           <Route path="signup" element={<SignUp/>}/>
+          <Route path="profile" element={<Profile/>}/>
         </Routes>
       </BrowserRouter>
     </>

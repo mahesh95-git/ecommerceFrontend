@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Cart from "./Cart";
 import SingIn from "./signIn";
 import SignUp from "./signUp";
+import Me from "./Me";
 export {
   Header,
   ProductAdd,
@@ -20,5 +21,6 @@ export {
   Footer,
   Cart,
   SingIn,
-  SignUp
+  SignUp,
+  Me
 };
