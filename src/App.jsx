@@ -13,17 +13,24 @@ import "./styles/cart.css";
 import "./styles/categoryProducts.css"
 import "./styles/signIn.css"
 import "./styles/Me.css"
+import "./styles/Loader.css"
+import "./styles/Orders.css"
 import ProductReviews from "./pages/ProductReviews";
 import ProductDetails from "./pages/ProductDetails";
 import Profile from "./pages/Profile";
 import Carts from "./pages/carts";
 import CetegoryPage from "./pages/Cetegory.page";
 import { SignUp, SingIn} from "./commponets";
+import Loader1 from "./commponets/loader1";
+import { useState } from "react";
+import Loader from "./commponets/Loader";
+import Orders from "./pages/Orders";
 
 
 
 function App() {
-  return (
+  const [loader,setLoader]=useState(false)
+  return loader?<Loader/>:(
     <>
       <BrowserRouter>
         <Routes>
@@ -35,6 +42,7 @@ function App() {
           <Route path="signin" element={<SingIn/>}/>
           <Route path="signup" element={<SignUp/>}/>
           <Route path="profile" element={<Profile/>}/>
+          <Route path="/orders" element={<Orders/>}/>
         </Routes>
       </BrowserRouter>
     </>

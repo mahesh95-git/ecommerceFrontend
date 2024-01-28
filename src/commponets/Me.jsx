@@ -18,7 +18,7 @@ function Me() {
   return (
     <div className="container-16">
       <div className="container-16-1">
-        <img src="user.png" alt="" />
+        <img src="/user.png" alt="" />
         <div>
           <input
             type="text"
@@ -62,10 +62,10 @@ function Me() {
           </div>
         </div>
         <div className="tab">
-          <Link to={"orders"}>
+          <Link to={"/orders"}>
             <span>My Orders</span>
           </Link>
-          <Link to={"orders"}>
+          <Link to={"/orders"}>
             <span>Change Password</span>
           </Link>
           <span>Logout</span>

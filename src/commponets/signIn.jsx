@@ -1,26 +1,26 @@
 import { useState } from "react";
 import InputField from "./InputField";
 import { Link } from "react-router-dom";
-import {Header} from "./index"
+import {Footer, Header} from "./index"
 function SingIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (
     <>
-    <Header/>
+   
         <div className="container-14">
       <form>
         <h1>MyStore</h1>
         <h2>Sign In</h2>
         <InputField
-          lable={"email"}
+          lable={"Email"}
           Value={email}
           setValue={setEmail}
           type={"text"}
           placeholder={"Enter Email"}
         />
          <InputField
-          lable={"password"}
+          lable={"Password"}
           Value={password}
           setValue={setPassword}
           type={"password"}
@@ -40,6 +40,7 @@ function SingIn() {
       </div>
       </form>
     </div>
+    <Footer/>
     </>
 
   );

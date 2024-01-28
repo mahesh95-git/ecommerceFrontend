@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { MdOutlineStarPurple500 } from "react-icons/md";
 import ProductListing from "./ProductListing";
+
+import Loader1 from "./loader1";
 function CategoryProducts() {
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(20000);
@@ -15,15 +17,18 @@ function CategoryProducts() {
   const handleFillterOption = () => {
     setFilop(!filop);
   };
+  const [loader, setLoader] = useState(false);
 
-  return (
+  return loader ? (
+    <Loader1 cout={6} />
+  ) : (
     <div className="container-13">
       <div className="fillter-option" onClick={handleFillterOption}>
         FILLTER
       </div>
       {filop ? (
         <div className="container-13-3">
-          <h3 className="fillter">FILLTER</h3>
+          <h3 className="fillter" onClick={handleFillterOption}>FILLTER</h3>
           <div className="price-section">
             <div className="lable">PRICE</div>
             <div className="lable-price">
@@ -109,7 +114,6 @@ function CategoryProducts() {
               <span>5</span>
             </div>
           </div>
-        
         </div>
       ) : (
         <div></div>

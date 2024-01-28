@@ -48,10 +48,9 @@ function Header() {
           </Link>
         </div>
         <div className="navigate-container">
-          <Link to="/">Contact</Link>
-        </div>
-        <div className="navigate-container">
-          <Link to="/">About</Link>
+          <Link to="/signin">
+            <div className="signIn">SignIn</div>
+          </Link>
         </div>
         <div className="hamburger-container">
           <div className="hamburger">
@@ -85,6 +84,11 @@ function Header() {
                       <Link to="/orders">
                         <IoBag />
                         <span>Orders</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/signin">
+                        <div className="signIn">SignIn</div>
                       </Link>
                     </li>
                   </ul>

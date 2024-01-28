@@ -10,6 +10,7 @@ import Cart from "./Cart";
 import SingIn from "./signIn";
 import SignUp from "./signUp";
 import Me from "./Me";
+import Order from "./Order";
 export {
   Header,
   ProductAdd,
@@ -22,5 +23,6 @@ export {
   Cart,
   SingIn,
   SignUp,
-  Me
+  Me,
+  Order
 };

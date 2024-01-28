@@ -35,3 +35,14 @@ font-size: 15px;
 
     }
 }
+
+ @media (min-width: 601px) and (max-width: 1200px) {
+    .product-container{
+        width: 30vw;
+      height: 30rem;
+    }
+    .product-img img{
+        width: 20vw;
+    }
+   
+  } 

@@ -1,9 +1,7 @@
-import {useState} from 'react'
-import Product from './Product'
-import Loader from './Loader'
-import Loader1 from './loader1'
-
-function ProductListing() {
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Loader from "./Loader"
+function Order() {
   const data=[
     {
       name:"SAMSUNG Galaxy S22 5G (Green, 128 GB)  (8 GB RAM)",
@@ -43,20 +41,53 @@ function ProductListing() {
     }
   ]
   const [loader,setLoader]=useState(false)
-  return loader?<div className='product-listing-loader'><Loader1 cout={6}/>
-  <Loader1 cout={6}/></div>:(
-    <div className='container-4'>
-  <div className="container-4-1">
-    <h2>New Product</h2>
-  </div>
-  <div className="container-4-2">
-  {data&& data.map((value,index)=>(
-    <Product info={value} key={index}/>
-  ))}
+  return (
+    <div className="container-21">
+      <div className="container-21-1">
+        <h2>MY ORDERS</h2>
+      </div>
+      <div className="container-21-2">
+       {loader?<Loader/> :data?data.map((value)=>(
+        <div className="orderDetail" key={value.name}>
+          <Link to={"/productDetial/jfkjdkjka"}>
+            {" "}
+            <img
+              src={value.img}
+              alt=""
+            />
+          </Link>
+          <div className="productInfo">
+            <div className="name">
+            {value.name}
+            </div>
 
-  </div>
+            <div className="price">350$ / piece - Quantity: 4</div>
+          </div>
+
+          <div className="shipping-address">
+            <span>Delivery Address:</span>
+            <div>
+              <div>Mahesh</div>
+              Naiknagar Umarga Subdistrict, Osmanabad District - 413605,
+              Maharashtra
+              <div>Phone number:9370079379</div>
+            </div>
+          </div>
+
+          <div className="order-status">Processing</div>
+          <div className="order-cancle">Cancle</div>
+        </div>
+       )): <div className="container-12">
+       <p>No Orders</p>
+       <Link to={"/"}>
+         <h3>Shopping Now</h3>
+       </Link>
+     </div>
+}
+      </div>
+       
     </div>
-  )
+  );
 }
 
-export default ProductListing
+export default Order;
