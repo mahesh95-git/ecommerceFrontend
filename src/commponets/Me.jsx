@@ -44,7 +44,7 @@ function Me() {
         <div>
           <div className="Info-section">
             <InputField
-              lable={"Email"}
+              label={"Email"}
               value={email}
               setValue={setEmail}
               redOnly={edit ? false : true}
@@ -53,7 +53,7 @@ function Me() {
           </div>
           <div className="Info-section">
             <InputField
-              lable={"Phone"}
+              label={"Phone"}
               value={phone}
               setValue={setPhone}
               redOnly={edit ? false : true}
@@ -65,11 +65,14 @@ function Me() {
           <Link to={"/orders"}>
             <span>My Orders</span>
           </Link>
+          <Link to={"/admin"}>
+            <span>Admin Dashboard</span>
+          </Link>
           <Link to={"/orders"}>
             <span>Change Password</span>
           </Link>
           <span>Logout</span>
-          <span>Delete Accout</span>
+          <span>Delete Account</span>
         </div>
       </div>
     </div>

@@ -1,10 +1,9 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="container-10">
-      <footer className="footer">
+      <footer className="footer" id="footer">
         <div className="footer-container">
           <div className="footer-section">
             <h3>Customer Service</h3>
@@ -27,8 +26,11 @@ function Footer() {
           <div className="footer-section">
             <h3>About Us</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              In this project, aimed at revolutionizing the way you shop for
+              clothes online! We understand the frustrations many users
+              encounter when navigating through various online clothing
+              websites. Therefore, our mission is to make your online shopping
+              experience not only effortless but also enjoyable.
             </p>
           </div>
 

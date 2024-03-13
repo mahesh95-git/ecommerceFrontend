@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import InputField from "./InputField";
 import { Link } from "react-router-dom";
-import Header from "./Header";
 import Footer from "./Footer";
 
 function SignUp() {
@@ -16,45 +15,47 @@ function SignUp() {
     
         <div className="container-14">
       <form>
+      <Link to="/">
         <h1>MyStore</h1>
+        </Link>
         <h2>Sign Up</h2>
         <InputField
-          lable={"Name"}
+          label={"Name"}
           type={"text"}
           value={name}
           placeholder={"Enter Name"}
           setValue={setName}
         />
         <InputField
-          lable={"Email"}
+          label={"Email"}
           type={"email"}
           value={email}
           placeholder={"Enter Email"}
           setValue={setEmail}
         />
         <InputField
-          lable={"Phone No."}
+          label={"Phone No."}
           type={"number"}
           value={phone}
           placeholder={"Enter Phone"}
           setValue={setPhone}
         />
         <InputField
-          lable={"Password"}
+          label={"Password"}
           type={"password"}
           value={password}
           placeholder={"Enter password"}
           setValue={setPassword}
         />
         <InputField
-          lable={"Confirm Password"}
+          label={"Confirm Password"}
           type={"password"}
           value={confirmPassword}
           placeholder={"Enter Confirm Password"}
           setValue={setConfirmPassword}
         />
         <InputField
-          lable={"Avatar"}
+          label={"Avatar"}
           type={"file"}
           value={avatar}
           setValue={setAvatar}

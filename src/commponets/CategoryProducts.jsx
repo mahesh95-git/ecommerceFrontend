@@ -1,9 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { MdOutlineStarPurple500 } from "react-icons/md";
 import ProductListing from "./ProductListing";
+import { useLocation } from "react-router-dom";
+import Loader from "./Loader";
+import { data } from "../assets/products";
+import Navigation from "./navigation";
 
-import Loader1 from "./loader1";
 function CategoryProducts() {
+  const [products,setProducts]=useState([]);
+  const {pathname}=useLocation()
   const [min, setMin] = useState(1);
   const [max, setMax] = useState(20000);
   const [filop, setFilop] = useState(false);
@@ -14,21 +19,33 @@ function CategoryProducts() {
   const handleMaxChange = (e) => {
     setMax(e.target.value);
   };
-  const handleFillterOption = () => {
+  const handleFilterOption = () => {
     setFilop(!filop);
   };
-  const [loader, setLoader] = useState(false);
-
+  const [loader, setLoader] = useState(true);
+  useEffect(()=>{
+    setProducts(data.filter((item)=> item.product_category==pathname.split("/")[2]))
+console.log("hello1");
+    window.scrollTo(0, 0);
+    const timeOut=setTimeout(()=>{
+setLoader(false);
+return()=>{
+clearTimeout(timeOut)
+}
+    },1000)
+  },[pathname])
   return loader ? (
-    <Loader1 cout={6} />
+    <Loader cout={6} />
   ) : (
-    <div className="container-13">
-      <div className="fillter-option" onClick={handleFillterOption}>
-        FILLTER
+ <>
+ <Navigation/>
+  <div className="container-13">
+      <div className="fillter-option" onClick={handleFilterOption}>
+        FILTER
       </div>
       {filop ? (
         <div className="container-13-3">
-          <h3 className="fillter" onClick={handleFillterOption}>FILLTER</h3>
+          <h3 className="fillter" onClick={handleFilterOption}>FILTER</h3>
           <div className="price-section">
             <div className="lable">PRICE</div>
             <div className="lable-price">
@@ -209,10 +226,13 @@ function CategoryProducts() {
       </div>
 
       <div className="container-13-2">
-        <ProductListing />
+        <ProductListing data={products} />
       </div>
     </div>
-  );
+ </>
+   
+  
+)
 }
 
 export default CategoryProducts;

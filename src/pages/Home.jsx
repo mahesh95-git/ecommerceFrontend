@@ -1,15 +1,21 @@
 import { CategoryName, Footer, Header, ProductAdd, ProductListing } from '../commponets'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Loader from '../commponets/Loader'
+import { data } from '../assets/products'
 
 function Home() {
-  const [loader,setLoader]=useState(false)
+  const [loader,setLoader]=useState(true)
+  useEffect(()=>{
+    const timeOut= setTimeout(() => setLoader(false), 1000);
+    return () => clearTimeout(timeOut);
+  },[])
+  
   return loader?<Loader/>:(
-    <div>
+    <div className='home'>
       <Header/>
       <ProductAdd/>
       <CategoryName/>
-      <ProductListing/>
+      <ProductListing data={data} />
       <Footer/>
     </div>
   )

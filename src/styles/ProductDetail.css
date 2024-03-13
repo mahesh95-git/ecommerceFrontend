@@ -11,7 +11,9 @@
   padding: 20px;
 }
 .container-5-1-1 div img {
-  width: 6vw;
+  width: 3vw;
+  aspect-ratio: 2/2.5;
+  cursor: pointer;
 }
 .container-5-1-1 div {
   padding: 10px;
@@ -19,7 +21,8 @@
   border: solid 1px white;
 }
 .container-5-1-2 img {
-  width: 30vw;
+  width: 25vw;
+  aspect-ratio: 2/2.5;
 }
 .container-5-2 {
   color: white;

@@ -11,6 +11,13 @@ import SingIn from "./signIn";
 import SignUp from "./signUp";
 import Me from "./Me";
 import Order from "./Order";
+import Navigation from "./navigation";
+import Dashboard from "./dashboard";
+import { AdminOption, AdminHeader } from "./adminHeader";
+import AdminCustomers from "./AdminCustomers";
+import AdminProducts from "./AdminProducts";
+import AdminTransaction from "./AdminTransaction";
+import AddNew from "./addNew";
 export {
   Header,
   ProductAdd,
@@ -24,5 +31,13 @@ export {
   SingIn,
   SignUp,
   Me,
-  Order
+  Order,
+  Navigation,
+  AdminHeader,
+  Dashboard,
+  AdminOption,
+  AdminCustomers,
+  AdminProducts,
+  AdminTransaction,
+  AddNew,
 };

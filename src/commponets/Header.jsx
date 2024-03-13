@@ -12,10 +12,13 @@ function Header() {
   const handleHamburger = () => {
     setHamburger(!hamburger);
   };
+  
   return (
     <div className="container-1">
       <div className="container-1-1">
+        <Link to="/">
         <h1>MyStore</h1>
+        </Link>
       </div>
       <div className="container-1-2">
         <input
@@ -25,6 +28,7 @@ function Header() {
           placeholder="Search for Products, Brands and More"
         />
       </div>
+     
       <div className="container-1-3">
         <div className="navigate-container">
           <Link to="/">
@@ -95,10 +99,10 @@ function Header() {
                   <hr />
                   <ul>
                     <li>
-                      <Link to="/">Contact</Link>
+                      <a  onClick={handleHamburger}href="#footer">Contact</a>
                     </li>
                     <li>
-                      <Link to="/">About</Link>
+                      <a  onClick={handleHamburger} href="#footer">About</a>
                     </li>
                   </ul>
                 </div>

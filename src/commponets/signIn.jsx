@@ -10,17 +10,19 @@ function SingIn() {
    
         <div className="container-14">
       <form>
+        <Link to="/">
         <h1>MyStore</h1>
+        </Link>
         <h2>Sign In</h2>
         <InputField
-          lable={"Email"}
+          label={"Email"}
           Value={email}
           setValue={setEmail}
           type={"text"}
           placeholder={"Enter Email"}
         />
          <InputField
-          lable={"Password"}
+          label={"Password"}
           Value={password}
           setValue={setPassword}
           type={"password"}
