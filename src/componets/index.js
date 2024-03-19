@@ -14,9 +14,9 @@ import Order from "./Order";
 import Navigation from "./navigation";
 import Dashboard from "./dashboard";
 import { AdminOption, AdminHeader } from "./AdminNav";
-import AdminCustomers from "./AdminCustomers";
-import AdminProducts from "./AdminProducts";
-import AdminTransaction from "./AdminTransaction";
+import AdminCustomers from "./AdminUserInfo";
+import AdminProducts from "./AdminProductInfo";
+import AdminTransaction from "./AdminTransactionInfo";
 import AddNew from "./AddNew";
 import ManageOrder from "./manageOrder";
 export {
