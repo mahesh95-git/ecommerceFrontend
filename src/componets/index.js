@@ -18,7 +18,7 @@ import AdminCustomers from "./AdminUserInfo";
 import AdminProducts from "./AdminProductInfo";
 import AdminTransaction from "./AdminTransactionInfo";
 import AddNew from "./AddNewProduct";
-import ManageOrder from "./ManageOrder";
+import ManageOrder from "./ManageOrders";
 export {
   Header,
   ProductAdd,
