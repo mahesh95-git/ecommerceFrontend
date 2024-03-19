@@ -7,8 +7,8 @@ import ProductDetail from "./ProductDetail";
 import ProductReview from "./ProductReview";
 import Footer from "./Footer";
 import Cart from "./Cart";
-import SingIn from "./signIn";
-import SignUp from "./signUp";
+// import SingIn from "./signIn";
+// import SignUp from "./signUp";
 import Me from "./Me";
 import Order from "./Order";
 import Navigation from "./navigation";
@@ -29,8 +29,8 @@ export {
   ProductReview,
   Footer,
   Cart,
-  SingIn,
-  SignUp,
+  // SingIn,
+  // SignUp,
   Me,
   Order,
   Navigation,

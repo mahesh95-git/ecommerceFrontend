@@ -1,7 +1,7 @@
 import { useState } from "react";
 import InputField from "./InputField";
 import { Link } from "react-router-dom";
-import {Footer, Header} from "./index"
+import {Footer,} from "./index"
 function SingIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
