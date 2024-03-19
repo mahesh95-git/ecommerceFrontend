@@ -24,7 +24,7 @@ import ProductReviews from "./pages/ProductReviews";
 import ProductDetails from "./pages/ProductDetails";
 import Profile from "./pages/Profile";
 import Cart from "./pages/Carts";
-import CategoryPage from "./pages/Cetegory.page";
+import CategoryPage from "./pages/Category";
 import {
   Dashboard,
   AdminProducts,
@@ -32,12 +32,13 @@ import {
   AdminTransaction,
   AddNew,
   ManageOrder,
+  SignUp,
+  SingIn
 } from "./componets/index";
 import Orders from "./pages/Orders";
 import Admin from "./pages/Admin";
 import { Toaster } from "react-hot-toast";
-import SignUp from "./componets/SignUp"
-import SingIn from "./componets/SignUp"
+
 
 function App() {
   return (

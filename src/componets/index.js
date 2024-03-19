@@ -7,17 +7,17 @@ import ProductDetail from "./ProductDetail";
 import ProductReview from "./ProductReview";
 import Footer from "./Footer";
 import Cart from "./Cart";
-// import SingIn from "./signIn";
-// import SignUp from "./signUp";
+import SingIn from "./signIn";
+import SignUp from "./SignUp";
 import Me from "./Me";
 import Order from "./Order";
 import Navigation from "./navigation";
 import Dashboard from "./dashboard";
-import { AdminOption, AdminHeader } from "./adminHeader";
+import { AdminOption, AdminHeader } from "./AdminHeader";
 import AdminCustomers from "./AdminCustomers";
 import AdminProducts from "./AdminProducts";
 import AdminTransaction from "./AdminTransaction";
-import AddNew from "./addNew";
+import AddNew from "./AddNew";
 import ManageOrder from "./manageOrder";
 export {
   Header,
@@ -29,8 +29,8 @@ export {
   ProductReview,
   Footer,
   Cart,
-  // SingIn,
-  // SignUp,
+  SingIn,
+  SignUp,
   Me,
   Order,
   Navigation,

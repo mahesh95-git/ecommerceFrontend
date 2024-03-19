@@ -2,7 +2,7 @@ import React from 'react'
 import { Footer, Header } from '../componets/index'
 import CategoryProducts from '../componets/CategoryProducts'
 
-function CetegoryPage() {
+function Category() {
   return (
     <div>
       <Header/>
@@ -12,4 +12,4 @@ function CetegoryPage() {
   )
 }
 
-export default CetegoryPage
+export default Category
