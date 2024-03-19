@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header, Order } from '../commponets'
+import { Footer, Header, Order } from '../commponets/index'
 
 function Orders() {
   return (

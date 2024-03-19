@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header,ProductDetail } from '../commponets'
+import { Footer, Header,ProductDetail } from '../commponets/index'
 function ProductDetails() {
   return (
     <div>

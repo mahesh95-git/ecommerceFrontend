@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import { AdminHeader, AdminOption, Footer } from "../commponets";
+import { AdminHeader, AdminOption, Footer } from "../commponets/index";
 
 function Admin() {
   return (

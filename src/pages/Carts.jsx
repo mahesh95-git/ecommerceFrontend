@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cart, Footer, Header } from '../commponets'
+import { Cart, Footer, Header } from '../commponets/index'
 
 function Carts() {
   return (
