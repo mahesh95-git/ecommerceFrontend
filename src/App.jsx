@@ -23,7 +23,7 @@ import "./styles/manageOrder.css";
 import ProductReviews from "./pages/ProductReviews";
 import ProductDetails from "./pages/ProductDetails";
 import Profile from "./pages/Profile";
-import Carts from "./pages/carts";
+
 import CategoryPage from "./pages/Cetegory.page";
 import {
   Dashboard,
@@ -46,7 +46,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/productReview/:id" element={<ProductReviews />} />
-          <Route path="/cart" element={<Carts />} />
+        
           <Route path="/products/:category" element={<CategoryPage />}></Route>
           <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="signin" element={<SingIn />} />

@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Loader from "./Loader"
 function Order() {
   const data=[
     {
-      name:"SAMSUNG Galaxy S22 5G (Green, 128 GB)  (8 GB RAM)",
-      img:"https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/h/c/-original-imagth5xwrg4gfyp.jpeg?q=70&crop=false",
+      name:"Men's Long Sleeve Solid Color Tops New Streetwear Casual Fashion Green / XL / United States",
+      img:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQb99m_fqeBP-GAX-vEQHdVVLWRzm8ceoJJ_sd69Dq3Iv5RmkVZgJzBASK6RNLNvRALvt8WiK-VxFXRVt-gDbHCvN4uTtbo8w&usqp=CAE",
       price:0.99,
     },
     {
-      name:"Men's Mid Top Ankle Retro Air Sneakers",
-      img:"https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/x/t/c/7-g1-822-style-code-7-zixer-black-original-imagpm4szxw3xu9d.jpeg?q=70&crop=true",
+      name:"Men Scroll Print Button Up Shirt,Xxl",
+      img:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRSzmztV4CpHUQO3qS-kRQ4MboYMz4M2Zv-X3EAt-uekzBhuhzzF-AcEDb5E6w1CMC63CsvbK_Y4FoIZGyreSy-Feur5sFS9Q&usqp=CAE",
       price:0.99,
     },
     {
@@ -22,25 +22,18 @@ function Order() {
       name:"Boys Full Sleeve Printed Sweatshirt",
       img:"https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/a/x/f/4-5-years-sweatshirt-for-boys-black-bitsu-bobsu-original-imagvxuxnyghmhw2.jpeg?q=70",
       price:0.99,
-    },
-    {
-      
-      name:"realme Buds 2 Wired Headset  (Black, In the Ear)",
-      img:"https://rukminim2.flixcart.com/image/416/416/k20r8nk0/headphone/7/w/c/realme-buds-2-original-imafhgrckbygsyrk.jpeg?q=70&crop=false",
-      price:0.99,
-    },
-    {
-      name:"Google Pixel 7a (Sea, 128 GB)  (8 GB RAM)",
-      img:"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/b/d/-original-imagpgx48f4szdvf.jpeg?q=70",
-      price:0.99,
-    },
-    {
-      name:"MILTON ERNESTO JR. Pack of 3 Thermoware Casserole Set  (500 ml, 1000 ml, 1500 ml)",
-      img:"https://rukminim2.flixcart.com/image/612/612/xif0q/casserole/s/t/e/3-cthfftk202redd0001-milton-original-imagg9k6egw5bjue.jpeg?q=70",
-      price:0.99,
     }
   ]
-  const [loader,setLoader]=useState(false)
+  const [loader,setLoader]=useState(true)
+useEffect(()=>{
+ const x= setTimeout(()=>{
+setLoader(false)
+  },1000)
+  return()=>{
+clearTimeout(x);
+  }
+},[])
+
   return (
     <div className="container-21">
       <div className="container-21-1">
