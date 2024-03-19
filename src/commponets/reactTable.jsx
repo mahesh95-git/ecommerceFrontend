@@ -1,5 +1,6 @@
 import React from "react";
 import { GrNext, GrPrevious } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 function ReactTable({ data, columns }) {
   const handlePrevious = () => {};
@@ -26,7 +27,7 @@ function ReactTable({ data, columns }) {
               <td>{val[columns[3].toLowerCase()]}</td>
               <td>{val[columns[4].toLowerCase()]}</td>
               <td>
-                <span className="manage">manage</span>
+                <span className="manage"><Link to="/manageOrder">manage</Link></span>
               </td>
               <td>{`${val.date.getDate()}/${val.date.getMonth()}/${val.date.getFullYear()}`}</td>
             </tr>

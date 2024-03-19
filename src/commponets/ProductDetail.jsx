@@ -1,20 +1,27 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { Navigation, Product } from "./index";
 import { Link, useLocation } from "react-router-dom";
 import { MdOutlineStarPurple500 } from "react-icons/md";
 import { IoMdCheckmark } from "react-icons/io";
 import { data } from "../assets/products";
+import { addToCart } from "../redux/controller/cart";
+import { useDispatch } from "react-redux";
 import Loader from "./Loader";
 function ProductDetail() {
   const [productDetails, setProductDetails] = useState({});
   const [loader, setLoader] = useState(true);
+  const dispatch=useDispatch();
   const { pathname } = useLocation();
- 
   const [image, setImage] = useState("");
 
   const handleImage = (value) => {
     setImage(productDetails.product_photos[value]);
   };
+
+  const hanldeCart=()=>{
+    const product=  data.filter((value) => value.product_id == pathname.split("/")[2])[0]
+    dispatch(addToCart(product));
+  }
 
   useEffect(() => {
     setProductDetails(
@@ -25,7 +32,6 @@ function ProductDetail() {
       setLoader(false);
     }, 1000);
     window.scrollTo(0, 0);
-    console.log("hello 2");
     return () => {
       clearTimeout(timeOut);
     };
@@ -100,7 +106,7 @@ function ProductDetail() {
           </div>
           <div className="container-5-2-6">
             <button>Buy Now</button>
-            <button>Add to Cart</button>
+            <button onClick={hanldeCart}>Add to Cart</button>
           </div>
         </div>
       </div>

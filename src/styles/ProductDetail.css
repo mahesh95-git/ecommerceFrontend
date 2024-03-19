@@ -64,6 +64,7 @@
   color: white;
   outline: none;
   border-radius: 5px;
+  cursor: pointer;
   height: 45px;
 }
 .container-5-2-6 :first-child {

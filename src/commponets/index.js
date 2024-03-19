@@ -18,6 +18,7 @@ import AdminCustomers from "./AdminCustomers";
 import AdminProducts from "./AdminProducts";
 import AdminTransaction from "./AdminTransaction";
 import AddNew from "./addNew";
+import ManageOrder from "./manageOrder";
 export {
   Header,
   ProductAdd,
@@ -40,4 +41,5 @@ export {
   AdminProducts,
   AdminTransaction,
   AddNew,
+  ManageOrder
 };

@@ -6,8 +6,10 @@ import { IoBag } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import { FaHome } from "react-icons/fa";
+import {useSelector} from  'react-redux'
 
 function Header() {
+  const {cart}=useSelector((state)=>state.cart)
   const [hamburger, setHamburger] = useState(false);
   const handleHamburger = () => {
     setHamburger(!hamburger);
@@ -41,7 +43,7 @@ function Header() {
           </Link>
         </div>
         <div className="navigate-container">
-          <span>2</span>
+          <span>{cart.length&&cart.length}</span>
           <Link to="/cart">
             <FaShoppingCart />
           </Link>

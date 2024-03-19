@@ -17,16 +17,27 @@ import "./styles/Loader.css";
 import "./styles/navigation.css";
 import "./styles/Orders.css";
 import "./styles/admin.css";
-import "./styles/listTable.css"
-import "./styles/newProduct.css"
+import "./styles/listTable.css";
+import "./styles/newProduct.css";
+import "./styles/manageOrder.css";
 import ProductReviews from "./pages/ProductReviews";
 import ProductDetails from "./pages/ProductDetails";
 import Profile from "./pages/Profile";
 import Carts from "./pages/carts";
 import CategoryPage from "./pages/Cetegory.page";
-import { Dashboard, SignUp, SingIn,AdminProducts,AdminCustomers,AdminTransaction, AddNew } from "./commponets";
+import {
+  Dashboard,
+  SignUp,
+  SingIn,
+  AdminProducts,
+  AdminCustomers,
+  AdminTransaction,
+  AddNew,
+  ManageOrder,
+} from "./commponets";
 import Orders from "./pages/Orders";
 import Admin from "./pages/Admin";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -42,16 +53,37 @@ function App() {
           <Route path="signup" element={<SignUp />} />
           <Route path="profile" element={<Profile />} />
           <Route path="/orders" element={<Orders />} />
-          <Route path="/admin" element={<Admin />} >
-          <Route path="dashboard" element={<Dashboard/>}/>
-          <Route path="products" element={<AdminProducts/>}/>
-          <Route path="customers" element={<AdminCustomers/>}/>
-          <Route path="transactions" element={<AdminTransaction/>}/>
+          <Route path="/admin" element={<Admin />}>
+            <Route path="dashboard" element={<Dashboard />} />
+            <Route path="products" element={<AdminProducts />} />
+            <Route path="customers" element={<AdminCustomers />} />
+            <Route path="transactions" element={<AdminTransaction />} />
           </Route>
-          <Route path="newProduct" element={<AddNew/>}/>
+          <Route path="newProduct" element={<AddNew />} />
+          <Route path="manageOrder" element={<ManageOrder />} />
         </Routes>
       </BrowserRouter>
-      ;
+      <Toaster
+        position="top-center"
+        reverseOrder={true}
+        // Default options for specific types
+        toastOptions={{
+          success: {
+            duration: 3000,
+            theme: {
+              primary: "green",
+              secondary: "black",
+              
+            },
+            style:{
+              background:"#16161c",
+              color:"green",
+              width:"20vw",
+              fontFamily:"mahesh"
+            }
+          },
+        }}
+      />
     </>
   );
 }

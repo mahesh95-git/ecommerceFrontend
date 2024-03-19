@@ -630,9 +630,12 @@ export const data=[
           "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRYsnLcrwmAQS_DhykGSF7G2ZCD87l1Fy295qek-EYkdoTK-cCuBLQ0zlqC5Tdt3vb4yULFqEqshReGGquV9Oqq5leTYUHzBg&usqp=CAE",
           "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRYtU45hdva0MCiPzODOA4nhN-cthmoEAqIj4qTxxRdrBdHMOiPKGWFaSiHD5WZtQ7g0wG_zi6xZyhDMa18FaszqA4Z-TH3&usqp=CAE"
         ],
+        "typical_price_range": [
+          "$21.59",
+          "$26.99"
+        ],
         "product_category":"menscloth",
         "product_rating": null,
-        "typical_price_range": null,
         "product_id": "1:5281536044851431145"
       },
       {

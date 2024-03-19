@@ -1,0 +1,35 @@
+.container-31{
+    color: white;
+    width: 100vw;
+    font-family: mahesh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container-33{
+    width: 60vw;
+    padding: 5px;
+    background-color: #16161c;
+    border-bottom: green solid 1px;
+}
+.container-32{
+    background-color: #16161c;
+    width: 60vw;
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+.container-31-1 img{
+    width: 20vw;
+    background-color: red;
+}
+
+.container-31-2 p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.shipping-info{
+    
+}
