@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header, Me } from '../commponets/index'
+import { Footer, Header, Me } from '../componets/index'
 
 
 function Profile() {

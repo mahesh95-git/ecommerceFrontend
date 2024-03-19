@@ -23,7 +23,7 @@ import "./styles/manageOrder.css";
 import ProductReviews from "./pages/ProductReviews";
 import ProductDetails from "./pages/ProductDetails";
 import Profile from "./pages/Profile";
-
+import Cart from "./pages/Carts";
 import CategoryPage from "./pages/Cetegory.page";
 import {
   Dashboard,
@@ -34,7 +34,7 @@ import {
   AdminTransaction,
   AddNew,
   ManageOrder,
-} from "./commponets";
+} from "./componets/index";
 import Orders from "./pages/Orders";
 import Admin from "./pages/Admin";
 import { Toaster } from "react-hot-toast";
@@ -46,7 +46,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/productReview/:id" element={<ProductReviews />} />
-        
+          <Route path="/cart" element={<Cart/>}/>
           <Route path="/products/:category" element={<CategoryPage />}></Route>
           <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="signin" element={<SingIn />} />
@@ -60,7 +60,7 @@ function App() {
             <Route path="transactions" element={<AdminTransaction />} />
           </Route>
           <Route path="newProduct" element={<AddNew />} />
-          <Route path="manageOrder" element={<ManageOrder />} />
+          <Route path="manageorder" element={<ManageOrder />} />
         </Routes>
       </BrowserRouter>
       <Toaster

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Footer, Header } from '../commponets'
-import CategoryProducts from '../commponets/CategoryProducts'
+import { Footer, Header } from '../componets/index'
+import CategoryProducts from '../componets/CategoryProducts'
 
 function CetegoryPage() {
   return (

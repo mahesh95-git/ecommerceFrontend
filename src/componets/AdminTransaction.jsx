@@ -26,10 +26,10 @@ function AdminTransaction() {
     <div className="container-28">
     <div className="container-28-1">
     <h3>Transaction</h3>
-    <div><IoMdAdd/></div>
+    
     </div>
 <div className="container-28-2">
-<ReactTable data={data} columns={columns}/>
+<ReactTable data={data} columns={columns} manage={"manageorder"}/>
 </div>
     </div>
   )

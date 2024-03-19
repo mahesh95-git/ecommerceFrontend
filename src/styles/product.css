@@ -1,7 +1,7 @@
 .product-container{
     background-color: #16161c;
     border-radius: 5px;
-    width: 14vw;
+    width: 13vw;
     font-family: mahesh;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@
     text-align: center;
 }
 .product-img img{
-    width: 10vw;
+    max-width: 10vw;
    aspect-ratio: 2/3;
    object-fit: contain;
   

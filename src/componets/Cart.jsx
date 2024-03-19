@@ -21,7 +21,9 @@ function Cart() {
           cart.map((value, index) => (
             <div className="cart-container" key={index}>
               <div className="img-container">
+                <Link to={`/product/${value.product_id}`}>
                 <img src={value.product_photos[0]} alt={value.name} />
+                </Link>
               </div>
               <div className="productInfo-container">
                 <div className="name">

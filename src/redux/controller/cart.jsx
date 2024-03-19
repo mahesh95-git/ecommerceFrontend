@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import toast from "react-hot-toast";
-import { Cart } from "../../commponets";
+import { Cart } from "../../componets";
 
 const initialState = {
   cart: [],

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header ,ProductReview} from '../commponets/index'
+import { Footer, Header ,ProductReview} from '../componets/index'
 
 function ProductReviews() {
   return (

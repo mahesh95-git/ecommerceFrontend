@@ -1441,7 +1441,7 @@ export const data=[
           "product_title": "KilyClothing Boys Girls Kids Patchwork Coat Smile T-Shirt Pants Jeans 3Pcs/Sets ZL S PINGEZI Gray / 24M",
           "product_description": "SPECIFICATIONS Style: Casual Sleeve Style: Regular Sleeve Length(cm): Full Season: Spring & Autumn Pattern Type: Patchwork Outerwear Type: Coat Model Number: RY202102131ZL Material: Cotton Item Type: Sets Gender: Unisex Fit: Fits true to size, take your normal size Department Name: Children Collar: V-Neck Closure Type: Single Breasted Age Range: 4-6y Age Range: 25-36m Age Range: 13-24m Age Range: 7-12m Age Range: 0-6m",
           "typical_price_range": ["$35.50", "$35.50"],
-          "product_category":"kidscloth",
+          
           "product_rating": null
         },
         {

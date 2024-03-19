@@ -82,10 +82,9 @@ function AdminCustomers() {
     <div className="container-28">
     <div className="container-28-1">
     <h3>Customers</h3>
-    <div className='bg-green'><IoMdAdd/></div>
     </div>
 <div className="container-28-2">
-<ReactTable data={data}columns={columns} />
+<ReactTable data={data}columns={columns} manage={"userprofile"}/>
 </div>
     </div>
   )
