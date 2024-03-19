@@ -13,7 +13,7 @@ import Me from "./Me";
 import Order from "./Order";
 import Navigation from "./navigation";
 import Dashboard from "./dashboard";
-import { AdminOption, AdminHeader } from "./AdminHeader";
+import { AdminOption, AdminHeader } from "./AdminNav";
 import AdminCustomers from "./AdminCustomers";
 import AdminProducts from "./AdminProducts";
 import AdminTransaction from "./AdminTransaction";
