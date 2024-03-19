@@ -1,7 +1,6 @@
 import {useState} from 'react'
 import Product from './Product'
-import Loader from './Loader'
-import Loader1 from './loader1'
+import Loader1 from './Loader1'
 
 function ProductListing({data}) {
  
