@@ -1,23 +1,51 @@
-.container-30 {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.container-30{
+   color: white;
   width: 100vw;
-
+padding: 30px;
   min-height: 100vh;
   font-family: mahesh;
+ 
+}
+.container-30 h2{
+  text-align: center;
 }
 .container-30 form {
   padding: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  gap: 30px;
+
+width: 100%;
   background-color: rgb(34, 34, 34);
 }
+.product-size .product-size-opt{
+  margin-top: 10px;
+ display: flex;
+ gap: 10px;
+ padding: 10px;
+
+align-items: center;
+height: 30px;
+
+ }
+ .product-size div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ }
+ .product-size div input[type="checkbox"]{
+  height: 20px;
+  width: 20px;
+ 
+ }
+
 .product-description {
   margin-top: 10px;
 }
 .pd textarea {
   background-color: rgb(34, 34, 34);
-  width: 20vw;
+  width: 30vw;
   margin-top: 10px;
   resize: none;
   padding: 10px;

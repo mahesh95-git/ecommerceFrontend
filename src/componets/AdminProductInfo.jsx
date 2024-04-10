@@ -22,58 +22,6 @@ function AdminProducts() {
     date:new Date()
   },
 
-  {
-    image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRui25CqmpJCp_4h-DdtuY6GeiMUNoVLtxY9cxS1oTg2xoL9KKoUbniUWUrC4HzffjwQY9vMDg_5N9jP5kk8GmBABsYqQZ5LQ&usqp=CAE",
-    name: "xyz",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam rerum assumenda, fugit in numquam id cumque, blanditiis asperiores nisi incidunt dicta aperiam corporis! Optio debitis sint sequi, sit tempora culpa!",
-    price: '$20.20',
-    quantity: 50,
-    date:new Date()
-  },
-  {
-    image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRui25CqmpJCp_4h-DdtuY6GeiMUNoVLtxY9cxS1oTg2xoL9KKoUbniUWUrC4HzffjwQY9vMDg_5N9jP5kk8GmBABsYqQZ5LQ&usqp=CAE",
-    name: "xyz",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam rerum assumenda, fugit in numquam id cumque, blanditiis asperiores nisi incidunt dicta aperiam corporis! Optio debitis sint sequi, sit tempora culpa!",
-    price: '$20.20',
-    quantity: 50,
-    date:new Date()
-  },
-  {
-    image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRui25CqmpJCp_4h-DdtuY6GeiMUNoVLtxY9cxS1oTg2xoL9KKoUbniUWUrC4HzffjwQY9vMDg_5N9jP5kk8GmBABsYqQZ5LQ&usqp=CAE",
-    name: "xyz",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam rerum assumenda, fugit in numquam id cumque, blanditiis asperiores nisi incidunt dicta aperiam corporis! Optio debitis sint sequi, sit tempora culpa!",
-    price: '$20.20',
-    quantity: 50,
-    date:new Date()
-  }, {
-    image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRui25CqmpJCp_4h-DdtuY6GeiMUNoVLtxY9cxS1oTg2xoL9KKoUbniUWUrC4HzffjwQY9vMDg_5N9jP5kk8GmBABsYqQZ5LQ&usqp=CAE",
-    name: "xyz",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam rerum assumenda, fugit in numquam id cumque, blanditiis asperiores nisi incidunt dicta aperiam corporis! Optio debitis sint sequi, sit tempora culpa!",
-    price: '$20.20',
-    quantity: 50,
-    date:new Date()
-  }, {
-    image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRui25CqmpJCp_4h-DdtuY6GeiMUNoVLtxY9cxS1oTg2xoL9KKoUbniUWUrC4HzffjwQY9vMDg_5N9jP5kk8GmBABsYqQZ5LQ&usqp=CAE",
-    name: "xyz",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam rerum assumenda, fugit in numquam id cumque, blanditiis asperiores nisi incidunt dicta aperiam corporis! Optio debitis sint sequi, sit tempora culpa!",
-    price: '$20.20',
-    quantity: 50,
-    date:new Date()
-  }, {
-    image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRui25CqmpJCp_4h-DdtuY6GeiMUNoVLtxY9cxS1oTg2xoL9KKoUbniUWUrC4HzffjwQY9vMDg_5N9jP5kk8GmBABsYqQZ5LQ&usqp=CAE",
-    name: "xyz",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam rerum assumenda, fugit in numquam id cumque, blanditiis asperiores nisi incidunt dicta aperiam corporis! Optio debitis sint sequi, sit tempora culpa!",
-    price: '$20.20',
-    quantity: 50,
-    date:new Date()
-  }, {
-    image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRui25CqmpJCp_4h-DdtuY6GeiMUNoVLtxY9cxS1oTg2xoL9KKoUbniUWUrC4HzffjwQY9vMDg_5N9jP5kk8GmBABsYqQZ5LQ&usqp=CAE",
-    name: "xyz",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam rerum assumenda, fugit in numquam id cumque, blanditiis asperiores nisi incidunt dicta aperiam corporis! Optio debitis sint sequi, sit tempora culpa!",
-    price: '$20.20',
-    quantity: 50,
-    date:new Date()
-  },
 
  ]
  

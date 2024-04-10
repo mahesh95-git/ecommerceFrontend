@@ -20,6 +20,7 @@ import "./styles/admin.css";
 import "./styles/listTable.css";
 import "./styles/newProduct.css";
 import "./styles/manageOrder.css";
+import "./styles/Dashboard.css"
 import ProductReviews from "./pages/ProductReviews";
 import ProductDetails from "./pages/ProductDetails";
 import Profile from "./pages/Profile";
@@ -66,8 +67,7 @@ function App() {
       </BrowserRouter>
       <Toaster
         position="top-center"
-        reverseOrder={true}
-        // Default options for specific types
+        reverseOrder={true} 
         toastOptions={{
           success: {
             duration: 3000,
@@ -79,8 +79,9 @@ function App() {
             style:{
               background:"#16161c",
               color:"green",
-              width:"20vw",
+              
               fontFamily:"mahesh"
+              
             }
           },
         }}

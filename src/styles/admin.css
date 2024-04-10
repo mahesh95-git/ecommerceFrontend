@@ -8,6 +8,7 @@
   font-family: mahesh;
   position: fixed;
   width: 100vw;
+  z-index: 10;
   top: 0px;
 }
 .container-25-1 h2 {

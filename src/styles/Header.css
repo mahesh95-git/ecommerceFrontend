@@ -44,6 +44,9 @@
   color: rgb(47, 159, 32);
   transition: all ease-in 0.2s;
 }
+.container-1-2 {
+  position: relative;
+}
 .container-1-2 input {
   background-color: white;
   width: 35vw;
@@ -62,6 +65,37 @@
   border-radius: 5px;
   padding: 5px 10px;
   font-weight: 600;
+}
+
+
+.container-1-4{
+  background-color: #0f1014;
+  width: 35vw;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  border-radius: 0px 0px  5px 5px;
+  min-height:25vw;
+ 
+}
+.container-1-4 p{
+  width: 35vw;
+ 
+  cursor: pointer;
+border-bottom: solid rgba(255, 255, 255, 0.06) 1px;
+  margin-top:10px;
+ display: flex;
+ font-size: 12px;
+ padding: 10px;
+ gap: 5px;
+}
+.container-1-4 p svg{
+  width: 30px;
+
+  height: 20px;
+}
+.active{
+  display: none;
 }
 @media (min-width: 600px) and (max-width: 885px) {
   .container-1-1 h1 {

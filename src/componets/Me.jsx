@@ -65,7 +65,7 @@ function Me() {
           <Link to={"/orders"}>
             <span>My Orders</span>
           </Link>
-          <Link to={"/admin"}>
+          <Link to={"/admin/dashboard"}>
             <span>Admin Dashboard</span>
           </Link>
           <Link to={"/orders"}>

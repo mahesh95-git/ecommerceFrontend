@@ -20,6 +20,7 @@ function SingIn() {
           setValue={setEmail}
           type={"text"}
           placeholder={"Enter Email"}
+          required={true}
         />
          <InputField
           label={"Password"}
@@ -27,6 +28,7 @@ function SingIn() {
           setValue={setPassword}
           type={"password"}
           placeholder={"Enter password"}
+          required={true}
         />
         <button className="submit-button">Submit</button>
         <p className="forgot">

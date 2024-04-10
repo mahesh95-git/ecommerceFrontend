@@ -2,19 +2,29 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { calculateProductAmount, removeFromCart } from "../redux/controller/cart";
 import { useDispatch } from "react-redux";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Loader from "./Loader";
 
 function Cart() {
   const dispatch=useDispatch();
   const  {cart,totalAmount,totalItem} = useSelector((state) => state.cart);
+  const [loader,setLoader]=useState(true)
  
   const handleRemoveProductFromCart=(id)=>{
     dispatch(removeFromCart(id));
+
   }
   useEffect(()=>{
+    const loaderTimeout=setTimeout(()=>{
+      setLoader(false)
+    },1000)
     dispatch(calculateProductAmount());
+    return()=>{
+      clearTimeout(loaderTimeout)
+    }
+
   },[dispatch,cart])
-  return cart?.length ? (
+  return loader?<Loader/>:(cart?.length ? (
     <div className="container-11">
       <div className="container-11-1">
         {cart &&
@@ -79,7 +89,7 @@ function Cart() {
         <h3>Shopping Now</h3>
       </Link>
     </div>
-  );
+  ));
 }
 
 export default Cart;

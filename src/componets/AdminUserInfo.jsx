@@ -11,70 +11,7 @@ function AdminCustomers() {
       role: "user",
       date:new Date()
     },
-    {
-      avatar: "/kid.png",
-      name: "rathod",
-      email: "rathod123@gmail.com",
-      phone: 349349839849,
-      role: "user",
-      date:new Date()
-    },
-    {
-      avatar: "/kid.png",
-      name: "xyx",
-      email: "xyx789@gmail.com",
-      phone: 34934439849,
-      role: "user",
-      date:new Date()
-    },
-    {
-        avatar: "/kid.png",
-        name: "xyx",
-        email: "xyx789@gmail.com",
-        phone: 34934439849,
-        role: "user",
-        date:new Date()
-      },
-      {
-        avatar: "/kid.png",
-        name: "xyx",
-        email: "xyx789@gmail.com",
-        phone: 34934439849,
-        role: "user",
-        date:new Date()
-      },
-      {
-        avatar: "/kid.png",
-        name: "xyx",
-        email: "xyx789@gmail.com",
-        phone: 34934439849,
-        role: "user",
-        date:new Date()
-      },
-      {
-        avatar: "/kid.png",
-        name: "xyx",
-        email: "xyx789@gmail.com",
-        phone: 34934439849,
-        role: "user",
-        date:new Date()
-      },
-      {
-        avatar: "/kid.png",
-        name: "xyx",
-        email: "xyx789@gmail.com",
-        phone: 34934439849,
-        role: "user",
-        date:new Date()
-      },
-      {
-        avatar: "/kid.png",
-        name: "xyx",
-        email: "xyx789@gmail.com",
-        phone: 34934439849,
-        role: "user",
-        date:new Date()
-      }
+
       
   ];
   const columns = ["Avatar", "Name", "Email", "Phone", "Role", "Action","sign-UpData"];

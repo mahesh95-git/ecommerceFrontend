@@ -333,7 +333,7 @@ function Home() {
       <Header/>
       <ProductAdd/>
       <CategoryName/>
-      <ProductListing data={data} />
+      <ProductListing data={data} title={'New Products'} />
       <Footer/>
     </div>
   )

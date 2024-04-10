@@ -39,7 +39,7 @@ function ReactTable({ data, columns,manage }) {
           <div onClick={handlePrevious} className="bg-green">
             <GrPrevious />
           </div>
-          <p>1 of 3</p>
+          <p>1 of 0</p>
           <div onClick={handleNext} className="bg-green">
             <GrNext />
           </div>

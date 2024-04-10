@@ -1,0 +1,114 @@
+.container-32{
+ font-family: mahesh;
+ padding: 10px 0px 20px 10px;
+}
+.container-32-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.widget{
+    padding: 20px 20px;
+    border-radius: 5px;
+    display: flex;
+    width: 16vw;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #131217;
+}
+.widgetInfo p{
+    font-size: 12px;
+    opacity: 0.8;
+}
+.widgetInfo h4{
+    font-size: 20px;
+    
+}
+
+.widgetInfo span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.widgetCircle{
+
+    color: white;
+    
+    width: 90px;
+    height: 90px;
+
+    border-radius: 50%;
+    align-items: center;
+    flex: none;
+    display: flex;
+
+    justify-content: center;
+}
+.widgetCircle::before{
+    content:" ";
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: absolute;
+background-color: #131217;
+
+}
+.widgetCircle span{
+    position: relative;
+    color: white;
+}
+.container-32-2{
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.revenue-chart{
+    width: 100%;
+    text-align: center;
+   
+}
+.revenue-chart h3{
+    margin:20px 0px;
+}
+.products-stock{
+    /* width: 30%; */
+    text-align: center;
+    display: flex;
+    margin: 20px 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #131217;
+   
+}
+.gender-ration{
+text-align: center;
+padding: 20px;
+background-color: #131217;
+border-radius: 10px;
+width: 30%;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.products-stock div{
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+} 
+.products-stock div span{
+    width: 10vw;
+
+}
+.container-32-3{
+    display: flex;
+}

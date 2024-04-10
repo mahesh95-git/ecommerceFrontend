@@ -92,16 +92,16 @@ clearTimeout(timeOut)
             <div className="lable">BRAND</div>
             <div className="brnad-name">
               <label htmlFor="Apple">
-                <input type="checkbox" /> <span>Apple</span>
+                <input type="checkbox" /> <span>Levis</span>
               </label>
               <label htmlFor="Apple">
-                <input type="checkbox" /> <span>Apple</span>
+                <input type="checkbox" /> <span>hanes</span>
               </label>
               <label htmlFor="Apple">
-                <input type="checkbox" /> <span>Apple</span>
+                <input type="checkbox" /> <span>adidas</span>
               </label>
               <label htmlFor="Apple">
-                <input type="checkbox" /> <span>Apple</span>
+                <input type="checkbox" /> <span>New Balance</span>
               </label>
               <label htmlFor="Apple">
                 <input type="checkbox" /> <span>Apple</span>
@@ -184,19 +184,19 @@ clearTimeout(timeOut)
           <div className="lable">BRAND</div>
           <div className="brnad-name">
             <label htmlFor="Apple">
-              <input type="checkbox" /> <span>Apple</span>
+              <input type="checkbox" /> <span>Levi</span>
             </label>
             <label htmlFor="Apple">
-              <input type="checkbox" /> <span>Apple</span>
+              <input type="checkbox" /> <span>Fruit of the Loom</span>
             </label>
             <label htmlFor="Apple">
-              <input type="checkbox" /> <span>Apple</span>
+              <input type="checkbox" /> <span>hanes</span>
             </label>
             <label htmlFor="Apple">
-              <input type="checkbox" /> <span>Apple</span>
+              <input type="checkbox" /> <span>Adidas</span>
             </label>
             <label htmlFor="Apple">
-              <input type="checkbox" /> <span>Apple</span>
+              <input type="checkbox" /> <span>New Balance</span>
             </label>
           </div>
         </div>
@@ -226,7 +226,7 @@ clearTimeout(timeOut)
       </div>
 
       <div className="container-13-2">
-        <ProductListing data={products} />
+        <ProductListing data={products} title={pathname.split("/")[2]} />
       </div>
     </div>
  </>

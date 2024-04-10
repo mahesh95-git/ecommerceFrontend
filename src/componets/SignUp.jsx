@@ -25,6 +25,7 @@ function SignUp() {
           value={name}
           placeholder={"Enter Name"}
           setValue={setName}
+          required={true}
         />
         <InputField
           label={"Email"}
@@ -32,6 +33,7 @@ function SignUp() {
           value={email}
           placeholder={"Enter Email"}
           setValue={setEmail}
+          required={true}
         />
         <InputField
           label={"Phone No."}
@@ -39,6 +41,7 @@ function SignUp() {
           value={phone}
           placeholder={"Enter Phone"}
           setValue={setPhone}
+          required={true}
         />
         <InputField
           label={"Password"}
@@ -46,6 +49,7 @@ function SignUp() {
           value={password}
           placeholder={"Enter password"}
           setValue={setPassword}
+          required={true}
         />
         <InputField
           label={"Confirm Password"}
@@ -53,6 +57,7 @@ function SignUp() {
           value={confirmPassword}
           placeholder={"Enter Confirm Password"}
           setValue={setConfirmPassword}
+          required={true}
         />
         <InputField
           label={"Avatar"}
