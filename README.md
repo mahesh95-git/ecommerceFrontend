@@ -85,12 +85,27 @@ This project is licensed under the [MIT License](LICENSE).
 
 
 
+## Demo
+https://www.linkedin.com/posts/maheshrathod_react-ecommerce-webdevelopment-activity-7179012308730355712-KNIG?trk=public_profile
+
+
+## Backend 
+
+## Technologies Used
+- Node js
+- Express
+- Mongodb
+- Stripe
+- Cloudinary
+- Multer
+- JWT Token
+- Bcrypt
+
+
+### Backend Repository
+https://github.com/mahesh95-git/ecommerce_backend
 ## 🔗 Links
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maheshrathod/)
 
-
-
-## Demo
-https://www.linkedin.com/posts/maheshrathod_react-ecommerce-webdevelopment-activity-7179012308730355712-KNIG?trk=public_profile
 
