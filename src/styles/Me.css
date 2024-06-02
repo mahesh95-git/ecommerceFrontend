@@ -21,6 +21,16 @@
   padding: 10px;
   flex-direction: column;
 }
+.container-16-1 input[type="file"]{
+  width: 10vw;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 50px 10px;
+  background-color: rgb(44, 42, 42);
+  border-radius: 50%;
+}
 .container-16-1 img {
   width: 10vw;
   height: 150px;
@@ -94,14 +104,21 @@ gap: 30px;
   text-align: center;
   border-radius: 2px;
 }
-.container-16-2 div span:nth-child(4) {
-  background-color: white;
+.container-16-2 div button {
+  background-color: rgb(53, 52, 52);
   width: 15vw;
   padding: 5px 30px;
   margin: 10px 20px;
-  color: #000;
+ 
+  height: 40px;
+  color:red;
   font-weight: 600;
-  border-radius: 2px;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+
   text-align: center;
 }
 @media (max-width: 728px) {

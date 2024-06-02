@@ -56,6 +56,7 @@
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+  color: black;
   margin-top: 10px;
   background-color: green;
 }
@@ -63,5 +64,6 @@
     background-color: rgb(153, 153, 251);
 }
 .bg-red{
-    background-color:white;
+    background-color:rgb(209, 3, 3);
+    
 }

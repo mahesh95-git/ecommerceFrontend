@@ -11,6 +11,23 @@
   z-index: 10;
   top: 0px;
 }
+.logout{
+  background-color: rgb(53, 52, 52);
+  width: 15vw;
+  padding: 5px 30px;
+  margin: 10px 20px;
+ 
+  height: 40px;
+  color:red;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+
+  text-align: center;
+}
 .container-25-1 h2 {
   color: rebeccapurple;
 }

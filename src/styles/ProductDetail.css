@@ -37,11 +37,12 @@
   font-size: 19px;
   height: 35px;
   border: none;
+  cursor: pointer;
   background-color: white;
   border-radius: 2px;
 }
 .container-5-2-4 input {
-  width: 40px;
+  width: 60px;
   font-size: 19px;
   text-align: center;
   height: 35px;
@@ -52,6 +53,7 @@
   border-radius: 2px;
   margin: 0px 5px;
 }
+
 .container-5-2-6 {
   display: flex;
   gap: 10px;
@@ -74,8 +76,18 @@
   font-size: 20px;
   font-weight: 600;
 }
+.container-5-2-2{
+  display: flex;
+  text-decoration:solid;
+  gap: 5px;
+  align-items: center;
+  
+  text-align: center;
+  
+}
 .container-5-2-2 svg {
   color: yellow;
+  font-size: 20px;
 }
 .container-5-2-5 input {
   width: 30px;

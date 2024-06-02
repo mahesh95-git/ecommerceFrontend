@@ -1,0 +1,20 @@
+.pagination-container{
+    width: 100%;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.pagination-container button{
+    padding: 10px 25px;
+    overflow: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: mahesh;
+    font-weight:500;
+    font-size: 15px;
+    background-color: green;
+}

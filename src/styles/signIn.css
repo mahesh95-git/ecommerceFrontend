@@ -13,13 +13,18 @@
   padding: 30px;
   border-radius: 5px;
 }
-.container-14 form h1 {
+.container-14 form h2 {
   color: green;
   text-align: center;
   margin: 10px 0px;
 }
 .input-container {
   margin-top: 20px;
+  font-family: mahesh;
+}
+.input-container label{
+  font-size: 14px;
+  color: white;
 }
 .input-container input {
   color: white;

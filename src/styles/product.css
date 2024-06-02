@@ -5,12 +5,13 @@
     font-family: mahesh;
     display: flex;
     flex-direction: column;
-  height: 24rem;
+
     align-items: center;
     padding: 10px;
     border: solid 0.5px rgba(255, 255, 255, 0.073);
     gap: 5px;
     text-align: center;
+    flex-grow: 5;
 }
 .product-img img{
     width: 10vw;
@@ -18,13 +19,22 @@
    object-fit: contain;
   
 }
+.check-rating{
+    color: yellow;
+}
+.product-not{
+    text-transform: uppercase;
+
+    margin: auto;
+ 
+}
 .product-details{
     border-top: solid 0.5px rgba(255, 255, 255, 0.407); 
 }
 @media (max-width:600px){
     .product-container{
         width: 47vw;
-        height: 19rem;
+   
     }
     .product-img img{
         width: 25vw;
@@ -40,7 +50,7 @@ font-size: 15px;
  @media (min-width: 601px) and (max-width: 1200px) {
     .product-container{
         width: 30vw;
-      height: 30rem;
+    
     }
     .product-img img{
         width: 20vw;
